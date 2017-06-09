@@ -82,7 +82,6 @@ function sumArray(testArray){ //eslint-disable-line
     str = str + ',' + testArray[i];
   }
   str = str.slice(1);
-  console.log([total, str + ' was passed in as an array of numbers, and ' + total + ' is their sum.']);
   return([total, str + ' was passed in as an array of numbers, and ' + total + ' is their sum.']);
 }
 
